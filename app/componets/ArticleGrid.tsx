@@ -1,4 +1,11 @@
 "use client";
+
+console.log("SUPABASE URL:", process.env.NEXT_PUBLIC_SUPABASE_URL);
+console.log(
+  "SUPABASE KEY EXISTS:",
+  !!process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+);
+
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { supabase } from "@/lib/supabase";
