@@ -195,7 +195,7 @@ export default function Navbar() {
           </Link>
           <Link
             href="/twandikire"
-            className="flex items-center gap-2  px-5 py-2 rounded-sm bg-linear-to-r from-red-500 via-yellow-500 to-blue-500 transition-colors duration-300"
+            className="flex items-center gap-2 bg-amber-600 px-5 py-2 rounded-sm bg-amber-700hover: transition-colors duration-300"
           >
             <FaEnvelope /> TWANDIKIRE
           </Link>
